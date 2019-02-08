@@ -17,6 +17,14 @@
 body {
     font-family: 'Aileron-Regular', Helvetica;
 }
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.section {
+    flex: 1;
+}
 header .brand {
     font-family: 'Aileron-Heavy', Helvetica;
     font-size: 20px;
