@@ -1,0 +1,37 @@
+@font-face{ 
+	font-family: 'Aileron-Heavy';
+	src: url('../fonts/aileron_heavy/Aileron-Heavy-webfont.eot');
+	src: url('../fonts/aileron_heavy/Aileron-Heavy-webfont.eot?iefix') format('eot'),
+	     url('../fonts/aileron_heavy/Aileron-Heavy-webfont.woff') format('woff'),
+	     url('../fonts/aileron_heavy/Aileron-Heavy-webfont.ttf') format('truetype'),
+	     url('../fonts/aileron_heavy/Aileron-Heavy-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'Aileron-Regular';
+	src: url('../fonts/aileron_regular/Aileron-Regular-webfont.eot');
+	src: url('../fonts/aileron_regular/Aileron-Regular-webfont.eot?iefix') format('eot'),
+	     url('../fonts/aileron_regular/Aileron-Regular-webfont.woff') format('woff'),
+	     url('../fonts/aileron_regular/Aileron-Regular-webfont.ttf') format('truetype'),
+	     url('../fonts/aileron_regular/Aileron-Regular-webfont.svg#webfont') format('svg');
+}
+body {
+    font-family: 'Aileron-Regular', Helvetica;
+}
+header .brand {
+    font-family: 'Aileron-Heavy', Helvetica;
+    font-size: 20px;
+    color: #34374c;
+}
+a.navbar-item:hover,
+a.navbar-link:hover {
+    color: #ee2b47;
+}
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #ee2b47;
+}
+.button.is-primary {
+    background-color: #ee2b47;
+}
+.button.is-primary:hover {
+    background-color: #2c2e3e;
+}
