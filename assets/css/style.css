@@ -43,6 +43,11 @@ a.navbar-link:hover {
 .button.is-primary:hover {
     background-color: #2c2e3e;
 }
+.clearfixm {
+    clear: both;
+    display: block;
+    margin-bottom: 7%;
+}
 .icon {
     vertical-align: sub;
 }
