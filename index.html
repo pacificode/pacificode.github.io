@@ -1,4 +1,14 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pacificode - ecommerce development</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+    <body class="main">
         <header>
             <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
@@ -13,7 +23,7 @@
                 <div id="navbarMenu" class="navbar-menu">
                     <div class="navbar-start">
                         <a href="http://pacificode.github.io" class="navbar-item">Inicio</a>
-                        <a href="http://pacificode.github.io/contact" class="navbar-item">Contacto</a>
+                        <a href="mailto:paulsoberanes@gmail.com?subject=Contacto Pacificode" class="navbar-item">Contacto</a>
                     </div>
                     <div class="navbar-end">
                         <div class="navbar-item has-dropdown is-hoverable">
@@ -51,4 +61,13 @@
                 </div>
             </div>
         </section>
-{% include footer.html %}
+        <footer class="footer is-fixed-bottom" style="background: #fff;">
+            <div class="content has-text-centered">
+                <p>
+                    &copy; <strong>Pacificode</strong> 2019 - Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
